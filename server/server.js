@@ -1,4 +1,4 @@
-// TODO: make this work.
+ // TODO: make this work.
 // if yuo go to localhost:3000 the app
 // there is expected crud to be working here
 var express = require('express');
@@ -22,6 +22,37 @@ var lions = [];
 var id = 0;
 
 // TODO: make the REST routes to perform CRUD on lions
+// {
+//   "GET /lions": {
+//     "desc": "returns all lions",
+//     "response": "200 application/json",
+//     "data": [{}, {}, {}]
+//   },
+//
+//   "GET /lions/:id": {
+//     "desc": "returns one lion respresented by its id",
+//     "response": "200 application/json",
+//     "data": {}
+//   },
+//
+//   "POST /lions": {
+//     "desc": "create and returns a new lion uisng the posted object as the lion",
+//     "response": "201 application/json",
+//     "data": {}
+//   },
+//
+//   "PUT /lions/:id": {
+//     "desc": "updates and returns the matching lion with the posted update object",
+//     "response": "200 application/json",
+//     "data": {}
+//   },
+//
+//   "DELETE /lions/:id": {
+//     "desc": "deletes and returns the matching lion",
+//     "response": "200 application/json",
+//     "data": {}
+//   }
+// }
 
 app.listen(3000);
 console.log('on port 3000');
